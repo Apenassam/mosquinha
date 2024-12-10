@@ -41,3 +41,28 @@ body{
     font-size: 20px;
     font-weight: bold;
 }
+@media (max-width: 768px) {
+    .painel {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .vidas img {
+        width: 30px;
+    }
+
+    .cronometro {
+        font-size: 1rem;
+    }
+}
+
+/* Para telas médias (tablets) */
+@media (max-width: 1024px) {
+    .painel {
+        padding: 0.5rem;
+    }
+
+    .cronometro {
+        font-size: 1.1rem;
+    }
+}
